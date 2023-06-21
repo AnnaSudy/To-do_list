@@ -21,10 +21,10 @@
 }
 
 .list__button--remove {
-  background-image: url("/images/bin.png");
+  background-image: url("https://i.postimg.cc/x8JYyTy7/bin.png");
   background-position: center;
   background-size: cover;
-  margin-left: 10px ;
+  margin-left: 10px;
 }
 
 .list__button--done {
