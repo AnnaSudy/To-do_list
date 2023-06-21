@@ -9,4 +9,4 @@ https://annasudy.github.io/To-do_list/
 
 ### Preview :
 
-![application preview](images/app.mp4)
+![application preview](images/Bez tytułu.png)
