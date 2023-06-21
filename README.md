@@ -6,7 +6,3 @@ This is a simple, intuitive form for entering things to do, tasks can be marked 
 
 ## Link:
 https://annasudy.github.io/To-do_list/
-
-### Preview :
-
-![application preview](images/Bez tytułu.png)
