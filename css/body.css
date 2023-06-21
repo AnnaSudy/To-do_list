@@ -1,0 +1,10 @@
+.body {
+  background-color: rgb(238, 238, 238);
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: "Geologica", sans-serif;
+}
+
+.body__main {
+  margin: 10px;
+}
