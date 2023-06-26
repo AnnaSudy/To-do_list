@@ -1,6 +1,25 @@
 .section {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 5px 0 hsl(0, 0%, 75%);
-    padding: 15px;
-    margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 75%);
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.section__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section__buttons {
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .section__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
   }
+}

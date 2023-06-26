@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lista zadań</title>
-    <link rel="icon" href="images/checklist.png" />
+    <link rel="icon" href="/images/checklist.png" />
     <meta
       property="og:image"
       content="https://cdn.pixabay.com/photo/2021/03/28/13/02/lists-6131220_1280.jpg"
@@ -26,12 +26,12 @@
       href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;600&display=swap"
       rel="stylesheet"
     />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/body.css" rel="stylesheet" />
-    <link href="css/section.css" rel="stylesheet" />
-    <link href="css/form.css" rel="stylesheet" />
-    <link href="css/list.css" rel="stylesheet" />
-    <script defer src="js/script.js"></script>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/body.css" rel="stylesheet" />
+    <link href="/css/section.css" rel="stylesheet" />
+    <link href="/css/form.css" rel="stylesheet" />
+    <link href="/css/list.css" rel="stylesheet" />
+    <script defer src="/js/script.js"></script>
   </head>
 
   <body class="body">
@@ -51,7 +51,10 @@
         </form>
       </section>
       <section class="section">
-        <h2>Lista zadań</h2>
+        <div class="section__container">
+          <h2>Lista zadań</h2>
+          <span class="section__buttons js-buttons"></span>
+        </div>
         <hr />
         <ul class="list js-tasks"></ul>
       </section>

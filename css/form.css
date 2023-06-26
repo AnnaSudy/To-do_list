@@ -1,5 +1,6 @@
 .form {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: stretch;
 }
@@ -20,6 +21,13 @@
     color: rgb(255, 255, 255);
     flex-basis: 130px;
     flex-shrink: 0;
+    transition: background 1s;
+}
+
+.form__item--button:hover {
+    transform: scale(1.02);
+    background-color: hsl(180, 100%, 35%);
+
 }
 
 @media (max-width: 767px) {
