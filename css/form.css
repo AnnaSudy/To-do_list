@@ -3,17 +3,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: stretch;
+    padding: 20px;
+    
+    
 }
 
 .form__item {
-    margin: 5px;
-    padding: 5px;
+    
+    padding: 7px;
     border: 1px solid rgb(238, 238, 238);
     flex-grow: 1;
+    ;
+    
 }
 
 .form__item--input {
-    flex-basis: 600px;
+    flex-basis: 500px;
+    margin-right: 10px;
+    
 }
 
 .form__item--button {
@@ -22,6 +29,8 @@
     flex-basis: 130px;
     flex-shrink: 0;
     transition: background 1s;
+    cursor: pointer;
+    
 }
 
 .form__item--button:hover {
@@ -33,5 +42,8 @@
 @media (max-width: 767px) {
     .form__item--button {
         width: 100%;
+        margin-top: 10px;
     }
-}
+    .form__item--input {
+        margin-right: 0;
+}};

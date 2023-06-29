@@ -1,7 +1,6 @@
 .section {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 5px 0 hsl(0, 0%, 75%);
-  padding: 15px;
   margin-top: 10px;
 }
 
@@ -9,8 +8,20 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-bottom: 1px lightgrey solid;
+  padding: 20px;
 }
 
+.section__header {
+border-bottom: 1px lightgrey solid;
+padding: 20px;
+margin: 0;
+
+}
+
+.section__containerHeader {
+  margin: 0;
+}
 .section__buttons {
   align-self: center;
 }
@@ -22,4 +33,6 @@
     justify-content: center;
 
   }
-}
+  .section__containerHeader {
+    margin-bottom: 10px;
+}};
