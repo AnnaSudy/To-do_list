@@ -1,6 +1,6 @@
 # To-do_list
 
-![preview](images/Bez tytułu.png)
+![preview](images/preview.png)
 
 ## About this app
 
