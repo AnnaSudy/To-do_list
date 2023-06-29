@@ -91,13 +91,13 @@
     let htmlButtons = "";
 
     if (tasks.length > 0) {
-      htmlButtons += `<button class = " button js-toggleFinished">${
+      htmlButtons += `<span ><button class = " section__button js-toggleFinished">${
         hideDoneTasks ? "Pokaż" : "Ukryj"
       } ukończone</button>
       
-      <button class = "button js-checkAll"${
+      <button class = "section__button js-checkAll"${
         tasks.every(({ done }) => done) ? "disabled" : ""
-      }>Ukończ wszystkie</button>
+      }>Ukończ wszystkie</button></span>
   `;
     }
 
