@@ -1,5 +1,5 @@
 .list {
-  padding: 5px;
+  padding: 15px;
 }
 
 .list__item {
@@ -19,6 +19,7 @@
   border: none;
   height: 25px;
   width: 25px;
+  text-align: center;
   transition: background 1s;
   cursor: pointer;
 }
@@ -26,7 +27,6 @@
 .list__button--remove {
   background-color: crimson;
   color: rgb(255, 255, 255);
-  justify-content: center;
   margin-left: 10px;
 }
 

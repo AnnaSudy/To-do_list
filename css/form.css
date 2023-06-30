@@ -33,10 +33,10 @@
 
 @media (max-width: 767px) {
   .form__item--button {
-    width: 100%;
+    flex-basis: 100%;
     margin-top: 10px;
   }
   .form__item--input {
     margin-right: 0;
   }
-}
+};

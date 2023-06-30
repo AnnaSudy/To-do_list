@@ -41,7 +41,7 @@
 
 @media (max-width: 767px) {
   .section__button {    
-    width: 100%;
+    flex-basis: 100%;
     margin-top: 10px;
   }
   .section__buttons {
