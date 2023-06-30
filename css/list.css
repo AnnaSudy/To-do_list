@@ -6,6 +6,7 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: auto 1fr auto;
+  text-align: center;
   word-break: break-word;
   padding: 10px;
   border-bottom: 1px lightgrey solid;
@@ -19,7 +20,7 @@
   border: none;
   height: 25px;
   width: 25px;
-  text-align: center;
+  
   transition: background 1s;
   cursor: pointer;
 }
