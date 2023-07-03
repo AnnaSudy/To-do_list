@@ -44,15 +44,13 @@
 
     for (const task of tasks) {
       tasksListHTMLContent += `
-  <div class = "${
-    task.done && hideDoneTasks ? " list__item--hidden" : ""
-  }">        <li class="list__item">
-  <button class="list__button list__button--done js-done">${
-    task.done ? "✓" : ""
-  }</button>
-  <span class=" ${task.done ? "list__span--done" : ""}">${task.content} </span>
-  <button class="list__button list__button--remove js-remove">🗑</button> 
-  </li></div>`;
+  <li class="list__item ${
+    task.done && hideDoneTasks ? " list__item--hidden" : ""}">
+    <button class="list__button list__button--done js-done">${
+    task.done ? "✓" : ""}</button>
+    <span class=" ${task.done ? "list__task" : ""}">${task.content} </span>
+    <button class="list__button list__button--remove js-remove">🗑</button> 
+  </li>`;
     }
     document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
   };
@@ -91,14 +89,11 @@
     let htmlButtons = "";
 
     if (tasks.length > 0) {
-      htmlButtons += `<span ><button class = " section__button js-toggleFinished">${
-        hideDoneTasks ? "Pokaż" : "Ukryj"
-      } ukończone</button>
-      
-      <button class = "section__button js-checkAll"${
-        tasks.every(({ done }) => done) ? "disabled" : ""
-      }>Ukończ wszystkie</button></span>
-  `;
+      htmlButtons += 
+      `<span >
+        <button class = " section__button js-toggleFinished">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button> 
+        <button class = "section__button js-checkAll"${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
+      </span>`;
     }
 
     document.querySelector(".js-buttons").innerHTML = htmlButtons;
@@ -121,8 +116,9 @@
     if (newTaskContent !== "") {
       addNewTask(newTaskContent);
       inputElement.value = "";
-      inputElement.focus();
+      
     }
+    inputElement.focus();
   };
 
   const init = () => {

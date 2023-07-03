@@ -12,7 +12,7 @@
   border-bottom: 1px lightgrey solid;
 }
 
-.list__span--done {
+.list__task {
   text-decoration: line-through;
 }
 

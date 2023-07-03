@@ -27,7 +27,8 @@
 }
 
 .form__item--button:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+  transition: 1s;
   background-color: hsl(180, 100%, 35%);
 }
 
